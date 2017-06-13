@@ -1,0 +1,28 @@
+<iframe src="http://moodle.knutd.edu.ua/slider/index.html" scrolling="no" width="100%" frameborder="0"></iframe>
+
+<hr>
+
+<div class="text-center"><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#contactDialog"><span class="multilang" lang="uk">Зауваження та пропозиції по вдосконаленню роботи модульного середовища освітнього процесу</span><span class="multilang" lang="ru">Замечания и предложения по совершенствованию работы модульного среды образовательного процесса</span><span class="multilang" lang="en">Comments and suggestions to improve the work of the modular environment for educational process</span></button></div>
+
+<!-- the div that represents the modal dialog -->
+<div class="modal fade" id="contactDialog" role="dialog">
+  <div class="modal-dialog text-center">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" id="close" class="close" data-dismiss="modal">×</button>
+        <h4 class="modal-title"><span class="multilang" lang="uk">Зауваження та пропозиції по вдосконаленню роботи модульного середовища освітнього процесу</span><span class="multilang" lang="ru">Замечания и предложения по совершенствованию работы модульного среды образовательного процесса</span><span class="multilang" lang="en">Comments and suggestions to improve the work of the modular environment for educational process</span></h4>
+      </div>
+      <div class="modal-body">
+        <h6><span class="multilang" lang="uk">Для зворотнього зв'язку повідомлення надсилайте за адресою support@dl.knutd.com.ua</span><span class="multilang" lang="ru">Для обратной связи сообщения отправляйте по адресу support@dl.knutd.com.ua</span><span class="multilang" lang="en">For the feedback send message  to support@dl.knutd.com.ua</span></h6>
+        <form id="contactForm" action="http://moodle.knutd.edu.ua/modalSendForm/sendMail.php" method="POST">
+          <span class="multilang" lang="uk">Ім'я:</span><span class="multilang" lang="ru">Имя</span><span class="multilang" lang="en">Name</span><br><input name="name" size="15" type="text"><br>
+          <span class="multilang" lang="uk">Повідомлення:</span><span class="multilang" lang="ru">Сообщение</span><span class="multilang" lang="en">Message</span><br><textarea name="message" rows="10" cols="40"></textarea><br>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" id="closeForm" class="btn btn-default" data-dismiss="modal"><span class="multilang" lang="uk">Закрити</span><span class="multilang" lang="ru">Закрыть</span><span class="multilang" lang="en">Close</span></button>
+        <button type="submit" id="submitForm" class="btn btn-primary submitBtn"><span class="multilang" lang="uk">Надіслати</span><span class="multilang" lang="ru">Отправить</span><span class="multilang" lang="en">Send</span></button>
+      </div>
+    </div>
+  </div>
+</div>
